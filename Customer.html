@@ -1,0 +1,42 @@
+<Body bgcolor=yellow>
+<center>
+<table border=0 cellpadding=5>
+<form name=f method=post action=customer.jsp>
+<TR>
+	<input type="button" value="Home" onclick="home()">
+</TR>
+<TR>
+	<TH>Customer_ID</TH>
+	<TH><input type=text name=t1></TH>
+</TR>
+<TR>
+	<TH>Address_id </TH>
+	<TH><input type=text name=t2></TH>
+</TR>
+<TR>
+	<TH>Branch_id </TH>
+	<TH><input type=text name=t3></TH>
+</TR>
+<TR>
+	<TH>Gender</TH>
+	<TH><input type=text name=t4></TH>
+</TR>
+<TR>
+	<TH>Contact</TH>
+	<TH><input type=text name=t5></TH>
+</TR>
+<TR>
+	<TH><input type=submit value="New" name=b1></TH>
+	<TH><input type=submit value="Save" name=b1></TH>
+	<TH><input type=submit value="AllSearch" name=b1></TH>   
+	<TH><input type=submit value="pSearch" name=b1></TH>   
+</TR>
+</form>
+</table>
+</body>
+<script>
+	function home()
+	{
+		window.open("Menu.html","_self");
+	}
+</script>
